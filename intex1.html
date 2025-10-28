@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SIVARAJ S | Portfolio</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vanta / Three.js (for the 3D waves background) -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.121.1/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">SIVARAJ S</div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><button id="toggle-theme" aria-label="Toggle theme">🌙</button></li>
+  </ul>
+</nav>
+
+<!-- HERO with Vanta background -->
+<section id="home" class="hero-section">
+  <div id="vanta-bg"></div> <!-- Vanta attaches to this div -->
+  <div class="hero-content container">
+    <img src="WhatsApp Image 2025-10-13 at 11.43.52 PM.jpeg" alt="Your Photo" class="hero-photo">
+    <h1>Hi, I'm <span>SIVARAJ S</span></h1>
+    <h2>I am a  <span class="typing" aria-live="polite"></span></h2>
+    <div class="hero-cta">
+      <a class="btn" href="#projects">See my work</a>
+      <a class="btn ghost" href="resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="container">
+  <h2 class="section-title">About Me</h2>
+  <p class="lead">I’m a Full Stack Web Developer passionate about building dynamic, user-focused web applications from concept to deployment. I specialize in both frontend and backend development, turning ideas into functional, high-performance digital products.
+
+ like html,css, React, JavaScript, , MongoDB, and SQL,git and github I’m comfortable working across the entire development stack. I focus on clean, maintainable code and follow best practices in design, security, and performance optimization.
+
+I enjoy solving complex problems, learning new technologies, and collaborating in agile teams to deliver impactful software solutions. Whether it’s crafting intuitive UIs or architecting robust backend systems, I’m driven by a commitment to build scalable, efficient, and modern web experiences..</p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="container">
+  <h2 class="section-title">Projects</h2>
+  <div class="project-container">
+    <div class="project-card">
+      <div class="card-front">
+        <img src="images/project1.png" alt="Project 1">
+        <h3>Project 1</h3>
+      </div>
+      <div class="card-back">
+        <p>Students-online-voting-System</p>
+        <a href=" https://sivaraj9876543210.github.io/Students-online-voting-System/" class="card-link">View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="card-front">
+        <img src="images/project2.png" alt="Project 2">
+        <h3>Project 2</h3>
+      </div>
+      <div class="card-back">
+        <p>FakeSocialMediaProfileDetector.</p>
+        <a href="https://sivaraj9876543210.github.io/FakeSocialMediaProfileDetector/" class="card-link">View Project</a>
+      </div>
+    </div>
+  </div>
+   <div class="project-card">
+      <div class="card-front">
+        <img src="images/project3.png" alt="Project 3">
+        <h3>Project 3</h3>
+      </div>
+      <div class="card-back">
+        <p>online-food-delivery-system.</p>
+        <a href=" https://sivaraj9876543210.github.io/online-food-delivery-system/" class="card-link">View Project</a>
+      </div>
+    </div>
+  </div>
+   <div class="project-card">
+      <div class="card-front">
+        <img src="images/project4.png" alt="Project 4">
+        <h3>Project 4</h3>
+      </div>
+      <div class="card-back">
+        <p>certificate-generated.</p>
+        <a href="#" class="card-link">View Project</a>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="container">
+  <h2 class="section-title">Skills</h2>
+  <div class="skill-list">
+    <div class="skill">
+      <p>Python <span class="skill-percent">90%</span></p>
+      <div class="skill-bar"><span data-skill="90%"></span></div>
+    </div>
+    <div class="skill">
+      <p>JavaScript <span class="skill-percent">80%</span></p>
+      <div class="skill-bar"><span data-skill="80%"></span></div>
+    </div>
+    <div class="skill">
+      <p>HTML/CSS <span class="skill-percent">90%</span></p>
+      <div class="skill-bar"><span data-skill="90%"></span></div>
+    </div>
+    <div class="skill">
+        <p>Hardware <span class="skill-percent">75%</span></p>
+        <div class="skill-bar"><span data-skill="75%"></span></div>
+      </div>
+      <div class="skill">
+        <p>Excel <span class="skill-percent">70%</span></p>
+        <div class="skill-bar"><span data-skill="75%"></span></div>
+      </div>
+      <div class="skill">
+        <p>MS Word <span class="skill-percent">70%</span></p>
+        <div class="skill-bar"><span data-skill="75%"></span></div>
+      </div>
+      <div class="skill">
+        <p>hardware <span class="skill-percent">80%</span></p>
+        <div class="skill-bar"><span data-skill="80%"></span></div>
+      </div>
+  </div>
+       
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="container">
+  <h2 class="section-title">Certifications</h2>
+  <div class="cert-container">
+    <!-- Card 1 -->
+    <article class="cert-card">
+      <img src="Screenshot (5).png" alt="Certificate 1">
+      <div class="cert-body">
+        <h3>Python for Beginners</h3>
+        <p class="cert-issuer">pyhton • 2024</p>
+        <p class="cert-desc">Introductory certificate covering core Python concepts .</p>
+        <div class="cert-actions">
+          <a href="certificates/python.pdf" download class="btn small">Download</a>
+          <a href="IBM PY0101EN Certificate _ Cognitive Class.pdf" target="_blank" rel="noopener" class="btn small ghost">Verify</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 2 -->
+    <article class="cert-card">
+  <img src="Screenshot (7).png" alt="certificate 2">
+      <div class="cert-body">
+        <h3>Data analyst</h3>
+        <p class="cert-issuer">Novitech • 2025</p>
+        <p class="cert-desc">Introductory certificate covering data analyst concepts</p>
+        <div class="cert-actions">
+          <a href="certificates/ai.pdf" download class="btn small">Download</a>
+          <a href="SIVARAJ S.pdf" target="_blank" rel="noopener" class="btn small ghost">Verify</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 3 -->
+    <article class="cert-card">
+      <img src="Screenshot (6).png" alt="Certificate 3">
+      <div class="cert-body">
+        <h3>full stack Web Development </h3>
+        <p class="cert-issuer">Novitech • 2025</p>
+        <p class="cert-desc">Full-stack web development with emphasis on responsive design and best practices.</p>
+        <div class="cert-actions">
+          <a href="certificates/web.pdf" download class="btn small">Download</a>
+          <a href="sivaraj 12.pdf" target="_blank" rel="noopener" class="btn small ghost">Verify</a>
+        </div>
+      </div>
+    </article>
+  </div>
+  <!-- Card 1 -->
+    <article class="cert-card">
+      <img src="Screenshot (8).png" alt="Certificate 1">
+      <div class="cert-body">
+        <h3>oracle</h3>
+        <p class="cert-issuer">oracle • 2024</p>
+        <p class="cert-desc">Introductory certificate covering core oracle AI concepts .</p>
+        <div class="cert-actions">
+          <a href="Screenshot (8).png" download class="btn small">Download</a>
+          <a href="Screenshot (8).png" target="_blank" rel="noopener" class="btn small ghost">Verify</a>
+        </div>
+      </div>
+    </article>
+</section>
+ 
+
+<!-- CONTACT -->
+<section id="contact" class="container">
+  <h2 class="section-title">Contact</h2>
+  <form id="contact-form" class="contact-form" autocomplete="off">
+    <input name="name" type="text" placeholder="Your name" required>
+    <input name="email" type="email" placeholder="Email" required>
+    <textarea name="message" rows="5" placeholder="Message" required></textarea>
+    <div class="contact-actions">
+      <button type="submit" class="btn">Send Message</button>
+      <a href="mailto:yourmail@example.com" class="btn ghost">Email Me</a>
+    </div>
+  </form>
+</section>
+
+<!-- Scripts -->
+<script src="scripts.js"></script>
+</body>
+</html>
